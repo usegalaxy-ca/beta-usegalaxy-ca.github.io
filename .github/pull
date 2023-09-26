@@ -1,0 +1,5 @@
+version: "1"
+rules:
+  - base: prod
+    upstream: usegalaxy-ca:prod    # change `wei` to the owner of upstream repo
+    mergeMethod: rebase
